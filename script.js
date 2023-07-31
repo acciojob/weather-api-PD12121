@@ -6,8 +6,8 @@ const App = () => {
   const [weather, setWeather] = useState(null);
 
   const fetchWeatherData = async () => {
-    const apiKey = "baa40a126abbcc7962fb12f7fc4df0bf"; // Replace this with your actual API key
-    const city = "London";
+    const apiKey = "baa40a126abbcc7962fb12f7fc4df0bf";
+    const city = "london";
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
     try {
